@@ -65,6 +65,7 @@ public class World {
 	private void createMesh(int x, int y, int z, float r, float g, float b) {
 		/*
 		 * This checks to make the block's face is touching another block. If not don't show the face.
+		 * TEMP: All values added to color will be removed. They are light place holders. "Psuedo-light"
 		 */
 		// Left
 		if (!checkLeft(x, y, z)) {
