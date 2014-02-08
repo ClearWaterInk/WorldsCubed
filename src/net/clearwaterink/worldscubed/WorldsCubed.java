@@ -114,7 +114,7 @@ public class WorldsCubed {
 	private void initGL(){
 		glMatrixMode(GL_PROJECTION);
 		glLoadIdentity();
-		GLU.gluPerspective(60.0f, ((float) Display.getWidth()) / ((float) Display.getHeight()), 0.1f, 128.0f);
+		GLU.gluPerspective(60.0f, ((float) Display.getWidth()) / ((float) Display.getHeight()), 0.1f, 256.0f);
 		glMatrixMode(GL_MODELVIEW);
 		glLoadIdentity();
 

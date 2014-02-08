@@ -1,7 +1,7 @@
 package net.clearwaterink.worldscubed.render;
 
 import net.clearwaterink.worldscubed.WorldsCubed;
-import net.clearwaterink.worldscubed.World.World;
+import net.clearwaterink.worldscubed.world.World;
 
 public class Terrain {
 	private World world;
