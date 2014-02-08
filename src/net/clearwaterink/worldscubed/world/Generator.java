@@ -50,15 +50,13 @@ public class Generator {
 				
 				int y = (int)(((float)chunkWidth / 16.0f) * (float)color) / chunkWidth;
 				
-				drawXZ(x, y, z);
-				//System.out.println(x + " " + y + " " + (int)(((float)chunkWidth / 16.0f) * (float)color) / 16);
+				addXZ(x, y, z);
 			}
 		}
 	}
 	
-	private void drawXZ(int x, int y, int z){
+	private void addXZ(int x, int y, int z){
 		for(int s = 0; s < y; s++){
-			System.out.println(x + " " + s + " " + z);
 			world.chunk[x][((chunkHeight - 1) - s) - 128][z] = 2;
 		}
 	}
